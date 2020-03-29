@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+table#companies {
+  border-collapse: collapse;
+  height: 480px;
+  vertical-align: middle;
+  display: table-cell;
+}
+th,
+td {
+  border-bottom: 1px solid #cecfd5;
+  padding: 24px 33px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: right;
+}
+thead tr:first-child th {
+  border-bottom: 1px solid #1c1c1c;
+}
+tfoot tr:last-child td {
+  border-bottom: 0;
+}
+td[colspan="2"] {
+  text-align: left;
+}
