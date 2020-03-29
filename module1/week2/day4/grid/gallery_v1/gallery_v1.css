@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+}
+main {
+  display: grid;
+  width: 100%;
+  min-height: 100%;
+  grid-template-rows: 28px repeat(2, 293px);
+  grid-template-columns: repeat(3, 295px);
+  justify-content: center;
+  align-content: center;
+  column-gap: 28px;
+  row-gap: 17px;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+header {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
